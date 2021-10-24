@@ -1,10 +1,17 @@
 import React from 'react';
 
-import ProfilePhoto from '../../components/ProfilePhoto.jsx';
+import ProfilePhoto from '../../components/ProfilePhoto/ProfilePhoto.jsx';
+import Name from '../../components/Name/Name.jsx'
+import GlobalStyle from './style'
+
 
 function Home() {
-    return(
-        <ProfilePhoto/>
+    return (
+        <>
+            <GlobalStyle></GlobalStyle>
+            <ProfilePhoto />
+            <Name></Name>
+        </>
     )
 }
 
