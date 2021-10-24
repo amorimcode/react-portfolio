@@ -8,7 +8,8 @@ import GlobalStyle from './style'
 function Home() {
     return (
         <>
-            <GlobalStyle></GlobalStyle>
+            <GlobalStyle>
+            </GlobalStyle>
             <ProfilePhoto />
             <Name></Name>
         </>

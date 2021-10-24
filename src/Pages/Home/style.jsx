@@ -1,6 +1,6 @@
 import { styled, createGlobalStyle } from 'styled-components'
 
-const GlobalStlyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     html {
         background-color: #212529;
     }
@@ -13,4 +13,4 @@ const GlobalStlyle = createGlobalStyle`
     }
 `
 
-export default GlobalStlyle
+export default GlobalStyle
